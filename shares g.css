@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+}
+header.header{
+  height: 20dvw;
+  background: linear-gradient(white,red);
+  color: whitesmoke;
+  border: 5px solid rgb(255,255,255);
+  
+}
+.header div{
+  font-size: 5vw;
+  font-weight: 800;
+}
+.banner{
+  width: 100%; 
+  height: 100vw; 
+  background: url('natureofet.png'); 
+  background-size: 100% 100%; 
+  margin: 5vh 0;
+}
+.img-credit{
+  position: relative;
+  top: 90%;
+  left: 50%;
+}
+
+article.articontent{
+  height: auto;
+  padding: 5vh 3vh;
+}
+.footer-li{
+  height: 120dvw;
+  background: linear-gradient(white,#660000);
+  box-shadow: inset 2px 2px 10px red;
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  margin: 3vw 0 0 0;
+}
+.footer-li h1{
+  height: 10%;
+  margin: 1.5%;
+}
+.footer-li > div{
+  width: 50%;
+  height: 80%;
+  background: white;
+  text-align: center;
+}
+.footer-li > div >li{
+  list-style-type: none;
+  margin: 3vw;
+}
+.footer-li > div > li > a{
+  color: black;
+  font-size: 3vw;
+}
+.footer{
+  height: 10dvw;
+  background: #4d0000;
+ 
+}
+footer.footer div,
+footer.footer a{
+  font-size: 4vw;
+  color: white;
+}
+
+/* responsiveness */
+/* mobile 380px > 
+
+@media screen and (min-width: 880px){
+  header.header{
+    
+  }
+}
+*/
