@@ -7,9 +7,9 @@
 # ProjectS: 
 ##############################
 # SHAREMAG.ORG
-# https://msgh0.github.io/sharemagazine.html
+[SHAREMAGAZINE](https://msgh0.github.io/sharemagazine.html)
 # ============================
-# https://msgh0.github.io/sharemag_the_nature_of_eternal_life.html
+[THE NATURE OF ETERNAL LIFE](https://msgh0.github.io/sharemag_the_nature_of_eternal_life.html)
 ##############################
 # THE CRWS
 ##############################
