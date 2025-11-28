@@ -4,7 +4,7 @@
         <link rel="stylesheet" href='shares g.css'>
       </head>
       <body>
-        <h1>Mcsteps ghana says Hello world!</h1>
+        <h1>Mcsteps Ghana says Hello world!</h1>
       </body>
   </html>
 
