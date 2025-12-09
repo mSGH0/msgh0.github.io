@@ -16,7 +16,7 @@
 
 ##########
 
-# THE sharemag
+# THE CRWS
 
 ###########
 # FYERSEDU
