@@ -7,6 +7,7 @@
 [THE NATURE OF ETERNAL LIFE](https://msgh0.github.io/sharemag_the_nature_of_eternal_life.html)    
 
 ###########
+
 [THE FORCE OF ETERNAL LIFE](https://msgh0.github.io/sharemag_the_force_of_eternal_life.html)
 
 ##########
