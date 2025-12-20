@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+}
+header.header{
+  height: 20dvw;
+  background-color: red;
+  color: whitesmoke;
+  border: 5px solid rgb(255,255,255);
+  
+}
+.header div{
+  font-size: 5vw;
+  font-weight: 800;
+}
+.banner{
+  width: 100%; 
+  height: 100vw;
+  margin: 5vh 0;
+}
+.img-credit{
+  position: relative;
+  top: 90%;
+  left: 50%;
+}
+
+article.articontent{
+  height: auto;
+  padding: 5vh 3vh;
+}
+
+
+.footer-li{
+  height: auto;
+  background: linear-gradient(white,#660000);
+  box-shadow: inset 2px 2px 10px red;
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  margin: 3vw 0 0 0;
+}
+
+.footer-li h1{
+  height: 10%;
+}
+
+.footer-li > div{
+  width: 50%;
+  height: auto;
+  background: white;
+  text-align: center;
+  margin: 10% 0;
+}
+
+.footer-li > div >li{
+  list-style-type: none;
+  margin: 3vw;
+}
+
+.footer-li > div > li > a{
+  color: black;
+  font-size: 3vw;
+}
+
+.footer{
+  height: 10dvw;
+  background: #4d0000;
+}
+
+footer.footer div,
+footer.footer a{
+  font-size: 4vw;
+  color: white;
+}
+
+/*
+.footer-li{
+  height: 50dvh;
+  background: #660000;
+}
+.footer{
+  height: 10dvw;
+  background: #4d0000;
+}
+footer.footer div,
+footer.footer a{
+  font-size: 4vw;
+  color: white;
+}
+*/
+
+@media screen and (min-width: 380px){
+  header.header{
+    height: 10vw;
+  }
+}
