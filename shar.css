@@ -1,0 +1,55 @@
+
+html,body{
+  width: 100vw;
+  overflow-x: hidden;
+  height: 100vh;              
+}
+  
+div.con{
+  width: 90%;
+  height: 90%;
+  margin: 5% 10%;
+}
+    
+.head{
+  background: linear-gradient(rgba(255,255,255,0.8), rgba(255,0,0,0.5)), url('rescue.png'); 
+  width: 74%;
+  height: 15%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+    margin: 5% 10%;
+    font-size: 20px;
+    background-size: 74% 15vh;
+    font-weight: bolder;
+    box-shadow: inset -2vw -2vw 0 0 red;
+    text-shadow: 0.5vw 0.5vw white;
+  }
+  .h-el{
+    width: 60%;
+    height: 50%;
+    text-align: center;
+  }
+  .h-h{
+    font-size: 90%;
+  }
+  
+  .h-s{
+    font-size: 70%;
+  }
+  
+  @media (orientation: landscape){
+    div.con{
+      height: 100vw;
+    }
+    
+    .head{
+      height: 15vw;
+      background-size: 100% 15vw;
+      background-repeat: no-repeat;
+      text-shadow: 0.2vw 0.2vw white;
+    }
+               
+  }
+     
