@@ -9,6 +9,8 @@
   <h1>
     Hello, World!
   </h1>
+
+  <div id='visit'></div>
   
   
   
@@ -17,8 +19,8 @@
   console.log(counter);
   document.addEventListener('DOMContentLoaded', ()=>{
     counter++;
-    console.log(counter);
-    
+    let vcon = document.getElementById('visit');
+    vcon.innerHTML = counter;
     /*
     visit counter
     get Networking number
