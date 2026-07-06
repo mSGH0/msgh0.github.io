@@ -25,13 +25,15 @@
   
   
   <script>
-  let counter = counter >= 1 : counter ? 0;
+    let counter = 0;
+  //ounterercounter = counter >= 1 : counter ? 0;
  
  console.log(counter);
   document.addEventListener('DOMContentLoaded', ()=>{
     counter++;
     let vcon = document.getElementById('visit');
     vcon.innerHTML = counter;
+    counter = counter;
     /*
     visit counter
     get Networking number
