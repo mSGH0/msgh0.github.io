@@ -25,15 +25,16 @@
   
   
   <script>
-    let counter = 0;
-  //ounterercounter = counter >= 1 : counter ? 0;
+    let counter = counter >= 1 : counter ? 0;
  
- console.log(counter);
+ 
+ consoluntog(counter);
   document.addEventListener('DOMContentLoaded', ()=>{
     counter++;
     let vcon = document.getElementById('visit');
     vcon.innerHTML = counter;
-    counter = counter;
+    
+    
     /*
     visit counter
     get Networking number
@@ -50,7 +51,7 @@
   
   /* 
   // Get navigation metrics for the current document
-const pageTiming = performance.getEntriesByType('navigation')[0];
+const pageTiming =erformance.getEntriesByType('navigation')[0];
 console.log(pageTiming.decodedBodySize/1024);
   
   
